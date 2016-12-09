@@ -8,7 +8,7 @@ object CommonSettingsPlugin extends AutoPlugin {
   // this makes it load for all conditions
   override def trigger = allRequirements
 
-  // these settings automatically be applied to every project
+  // these settings automatically applied to every project
   override def projectSettings = Seq(
     organization := "org.lancegatlin",
     scalaVersion := "2.11.8",
